@@ -5,9 +5,6 @@ This project focuses on **business-driven analytics**, data modeling, DAX calcul
 
 ---
 
-## 🚀 Live Dashboard  
-[Click here to view the Power BI report](https://app.fabric.microsoft.com/view?r=eyJrIjoiMWM3NDhiOWItNWZhNi00ODc2LTg1MjQtYmM2Y2Y5ODM1MTJkIiwidCI6ImY5YTQzODQwLWY3OGUtNDE3Yy05ZDgwLTg5NTJhMmJhN2Y0YiJ9)
-
 
 ---
 
