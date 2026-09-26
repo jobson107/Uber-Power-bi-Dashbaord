@@ -130,7 +130,8 @@ Analyze performance at the vehicle level to optimize fleet usage.
 - Helps improve pricing and incentive strategies
 
 ---
-<img src="Vehicle.png" alt="Vehicle" width="1000"/>
+<img src="Screenshot 2026-09-26 151143.png
+" alt="Vehicle" width="1000"/>
 
 ---
 ### 4️⃣ Revenue Page
