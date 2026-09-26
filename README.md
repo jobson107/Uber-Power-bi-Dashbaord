@@ -1,252 +1,318 @@
-# 🚖 Uber Power BI Dashboard -- Business Analytics Project
+🚖 Uber Power BI Dashboard – Business Analytics Project
 
-An end-to-end **Power BI analytics dashboard** designed to analyze Uber
-ride data and deliver actionable insights across **bookings, revenue,
-vehicles, customers, and locations**.\
-This project focuses on **business-driven analytics**, data modeling,
-DAX calculations, and professional dashboard design.
+An end-to-end Power BI analytics dashboard designed to analyze Uber ride data and deliver actionable insights across bookings, revenue, vehicles, customers, and locations.
+This project focuses on business-driven analytics, data modeling, DAX calculations, and professional dashboard design.
 
-------------------------------------------------------------------------
+📌 Project Overview
 
-## 📌 Project Overview
+Uber operates at a large scale with thousands of daily rides. Managing such operations requires transforming raw ride data into meaningful insights that support decision-making.
+This project addresses key business questions related to performance monitoring, revenue optimization, customer behavior, and operational efficiency using Microsoft Power BI.
 
-Uber operates at a large scale with thousands of daily rides. Managing
-such operations requires transforming raw ride data into **meaningful
-insights** that support decision-making.\
-This project addresses key business questions related to **performance
-monitoring, revenue optimization, customer behavior, and operational
-efficiency** using Microsoft Power BI.
+🎯 Business Objectives
 
-------------------------------------------------------------------------
+Monitor overall ride and revenue performance
 
-## 🎯 Business Objectives
+Identify revenue drivers and loss areas
 
--   Monitor overall ride and revenue performance
--   Identify revenue drivers and loss areas
--   Analyze vehicle-wise contribution and efficiency
--   Understand customer behavior and cancellation impact
--   Identify peak demand locations and time slots
--   Enable data-driven operational and strategic decisions
+Analyze vehicle-wise contribution and efficiency
 
-------------------------------------------------------------------------
+Understand customer behavior and cancellation impact
 
-## 📂 Dataset Overview
+Identify peak demand locations and time slots
 
-The dataset represents **ride-level transactional data** and includes:
+Enable data-driven operational and strategic decisions
 
--   Booking details (Booking ID, Status, Value)
--   Vehicle types (Auto, Bike, Sedan, XL, etc.)
--   Customer information
--   Pickup and drop locations
--   Distance traveled
--   Time and date attributes
--   Ratings and cancellation reasons
+📂 Dataset Overview
 
-Data is analyzed on **monthly and quarterly** levels to identify trends
-and patterns.
+The dataset represents ride-level transactional data and includes:
 
-------------------------------------------------------------------------
+Booking details (Booking ID, Status, Value)
 
-## 🧱 Dashboard Architecture
+Vehicle types (Auto, Bike, Sedan, XL, etc.)
 
-The dashboard is structured into **five analytical pages**, each serving
-a specific business requirement:
+Customer information
 
-1.  Overview\
-2.  Vehicle\
-3.  Revenue\
-4.  Customer\
-5.  Location
+Pickup and drop locations
 
-Interactive navigation buttons and filters allow seamless movement
-between pages.
+Distance traveled
 
-------------------------------------------------------------------------
+Time and date attributes
 
-## 📊 Page-wise Business Explanation
+Ratings and cancellation reasons
 
-------------------------------------------------------------------------
+Data is analyzed on monthly and quarterly levels to identify trends and patterns.
 
-### 1️⃣ Home / Landing Page
+🧱 Dashboard Architecture
 
-**Purpose** - Introduces the Uber analytics dashboard - Provides context
-and navigation for users
+The dashboard is structured into five analytical pages, each serving a specific business requirement:
 
-**Key Features** - Uber branding and visual identity - Brief description
-of dashboard purpose - Navigation buttons to all analytical pages
+Overview
 
-**Business Value** - Improves user experience - Makes the dashboard
-portfolio and stakeholder-ready
+Vehicle
 
-------------------------------------------------------------------------
+Revenue
 
-```{=html}
+Customer
+
+Location
+
+Interactive navigation buttons and filters allow seamless movement between pages.
+
+📊 Page-wise Business Explanation
+
+1️⃣ Home / Landing Page
+
+Purpose
+
+Introduces the Uber analytics dashboard
+
+Provides context and navigation for users
+
+Key Features
+
+Uber branding and visual identity
+
+Brief description of dashboard purpose
+
+Navigation buttons to all analytical pages
+
+Business Value
+
+Improves user experience
+
+Makes the dashboard portfolio and stakeholder-ready
+
 <p align="center">
-```
-`<img src="./Home.png" alt="Home" width="100%"/>`{=html}
-```{=html}
+  <img src="./Home.png" alt="Uber Power BI Home Page" width="100%">
 </p>
-```
 
-------------------------------------------------------------------------
+2️⃣ Overview Page
 
-### 2️⃣ Overview Page
+Business Requirement
+Provide a high-level snapshot of Uber’s operational and financial performance.
 
-**Business Requirement** Provide a high-level snapshot of Uber's
-operational and financial performance.
+KPIs Displayed
 
-**KPIs Displayed** - Total Bookings - Lost Bookings - Total Revenue -
-Total Distance - Average Distance per Ride
+Total Bookings
 
-**Insights Provided** - Monthly and quarterly booking trends - Revenue
-trends over time - Revenue by vehicle type - Top pickup and drop
-locations - Average customer and driver ratings
+Lost Bookings
 
-**Business Value** - Enables quick executive-level decision-making -
+Total Revenue
+
+Total Distance
+
+Average Distance per Ride
+
+Insights Provided
+
+Monthly and quarterly booking trends
+
+Revenue trends over time
+
+Revenue by vehicle type
+
+Top pickup and drop locations
+
+Average customer and driver ratings
+
+Business Value
+
+Enables quick executive-level decision-making
+
 Identifies overall growth, decline, or inefficiencies
 
-------------------------------------------------------------------------
-
-```{=html}
 <p align="center">
-```
-`<img src="./Overview.png" alt="Overview" width="100%"/>`{=html}
-```{=html}
+  <img src="./Overview.png" alt="Uber Power BI Overview Page" width="100%">
 </p>
-```
 
-------------------------------------------------------------------------
+3️⃣ Vehicle Page
 
-### 3️⃣ Vehicle Page
+Business Requirement
+Analyze performance at the vehicle level to optimize fleet usage.
 
-**Business Requirement** Analyze performance at the vehicle level to
-optimize fleet usage.
+Key Metrics
 
-**Key Metrics** - Booking count by vehicle - Revenue by vehicle type -
-Revenue contribution percentage - Ride completion rate - Ride incomplete
-rate
+Booking count by vehicle
 
-**Insights Provided** - Identification of top revenue-generating
-vehicles - Comparison of completion efficiency across vehicle types -
+Revenue by vehicle type
+
+Revenue contribution percentage
+
+Ride completion rate
+
+Ride incomplete rate
+
+Insights Provided
+
+Identification of top revenue-generating vehicles
+
+Comparison of completion efficiency across vehicle types
+
 Sparkline trends for completed bookings
 
-**Business Value** - Supports fleet optimization - Helps improve pricing
-and incentive strategies
+Business Value
 
-------------------------------------------------------------------------
+Supports fleet optimization
 
-```{=html}
+Helps improve pricing and incentive strategies
+
 <p align="center">
-```
-`<img src="./Screenshot 2026-09-26 151143.png" alt="Vehicle" width="100%"/>`{=html}
-```{=html}
+  <img src="./Screenshot%202026-09-26%20151143.png" alt="Uber Power BI Vehicle Page" width="100%">
 </p>
-```
 
-------------------------------------------------------------------------
+4️⃣ Revenue Page
 
-### 4️⃣ Revenue Page
+Business Requirement
+Provide detailed financial insights and identify revenue risks.
 
-**Business Requirement** Provide detailed financial insights and
-identify revenue risks.
+Key Analysis
 
-**Key Analysis** - Monthly and quarterly revenue trends - Revenue by
-vehicle type - Revenue by payment method (UPI, Cash, Wallet, Cards) -
+Monthly and quarterly revenue trends
+
+Revenue by vehicle type
+
+Revenue by payment method (UPI, Cash, Wallet, Cards)
+
 Revenue by top customers
 
-**Efficiency & Risk Metrics** - Month-on-Month revenue change - Average
-revenue per booking - Revenue per kilometer - Lost revenue estimation
+Efficiency & Risk Metrics
 
-**Business Value** - Identifies profitable segments - Detects revenue
-leakage - Supports financial planning and strategy
+Month-on-Month revenue change
 
-------------------------------------------------------------------------
+Average revenue per booking
 
-```{=html}
+Revenue per kilometer
+
+Lost revenue estimation
+
+Business Value
+
+Identifies profitable segments
+
+Detects revenue leakage
+
+Supports financial planning and strategy
+
 <p align="center">
-```
-`<img src="./Revenue.png" alt="Revenue" width="100%"/>`{=html}
-```{=html}
+  <img src="./Revenue.png" alt="Uber Power BI Revenue Page" width="100%">
 </p>
-```
 
-------------------------------------------------------------------------
+5️⃣ Customer Page
 
-### 5️⃣ Customer Page
+Business Requirement
+Understand customer behavior, loyalty, and cancellation impact.
 
-**Business Requirement** Understand customer behavior, loyalty, and
-cancellation impact.
+Customer Segmentation
 
-**Customer Segmentation** - First-time customers - Returning customers -
+First-time customers
+
+Returning customers
+
 Regular customers
 
-**Key Metrics** - Customer cancellation rate - Customer cancellation
-count - Customer revenue risk percentage - Estimated revenue impact due
-to customer cancellations
+Key Metrics
 
-**Insights Provided** - Top customer cancellation reason (e.g., Wrong
-Address) - Customer trend over time - Payment method preference -
+Customer cancellation rate
+
+Customer cancellation count
+
+Customer revenue risk percentage
+
+Estimated revenue impact due to customer cancellations
+
+Insights Provided
+
+Top customer cancellation reason (e.g., Wrong Address)
+
+Customer trend over time
+
+Payment method preference
+
 Detailed customer-level table
 
-**Business Value** - Improves customer retention strategies - Reduces
-revenue loss due to cancellations - Enhances customer experience
+Business Value
 
-------------------------------------------------------------------------
+Improves customer retention strategies
 
-```{=html}
+Reduces revenue loss due to cancellations
+
+Enhances customer experience
+
 <p align="center">
-```
-`<img src="./Customer.png" alt="Customer" width="100%"/>`{=html}
-```{=html}
+  <img src="./Customer.png" alt="Uber Power BI Customer Page" width="100%">
 </p>
-```
 
-------------------------------------------------------------------------
+6️⃣ Location Page
 
-### 6️⃣ Location Page
+Business Requirement
+Analyze geographic and time-based demand patterns.
 
-**Business Requirement** Analyze geographic and time-based demand
-patterns.
+Key Insights
 
-**Key Insights** - Total distance by vehicle type - Distance covered by
-location - Top active areas - Peak demand time slots - Day-wise and
-time-slot heatmap analysis
+Total distance by vehicle type
 
-**Business Value** - Optimizes driver allocation - Supports surge
-pricing decisions - Improves city-level operations
+Distance covered by location
 
-------------------------------------------------------------------------
+Top active areas
 
-```{=html}
+Peak demand time slots
+
+Day-wise and time-slot heatmap analysis
+
+Business Value
+
+Optimizes driver allocation
+
+Supports surge pricing decisions
+
+Improves city-level operations
+
 <p align="center">
-```
-`<img src="./Location.png" alt="Location" width="100%"/>`{=html}
-```{=html}
+  <img src="./Location.png" alt="Uber Power BI Location Page" width="100%">
 </p>
-```
 
-------------------------------------------------------------------------
+🛠 Tools & Technologies Used
 
-## 🛠 Tools & Technologies Used
+Microsoft Power BI
 
--   **Microsoft Power BI**
--   **Microsoft Fabric / Power BI Service**
--   **DAX (Data Analysis Expressions)**
--   Data Modeling & Relationships
--   Time Intelligence
--   KPI Design & Dashboard UX Principles
+DAX (Data Analysis Expressions)
 
-------------------------------------------------------------------------
+Data Modeling & Relationships
 
-## 📈 Business Impact
+Time Intelligence
+
+KPI Design & Dashboard UX Principles
+
+📈 Business Impact
 
 This dashboard enables Uber stakeholders to:
 
--   Track business performance
--   Identify revenue growth and loss areas
--   Improve fleet and driver utilization
--   Reduce ride cancellations
--   Enhance customer satisfaction
--   Make informed, data-driven decisions
+Track business performance
 
-------------------------------------------------------------------------
+Identify revenue growth and loss areas
+
+Improve fleet and driver utilization
+
+Reduce ride cancellations
+
+Enhance customer satisfaction
+
+Make informed, data-driven decisions
+
+📁 Project Files
+
+Uber.pbix – Power BI dashboard source file
+
+Home.png – Home / Landing page preview
+
+Overview.png – Overview page preview
+
+Screenshot 2026-09-26 151143.png – Vehicle page preview
+
+Revenue.png – Revenue page preview
+
+Customer.png – Customer page preview
+
+Location.png – Location page preview
+
+Note: This repository currently contains the Power BI project and dashboard previews. An interactive live Power BI link is not included.
